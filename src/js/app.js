@@ -9,4 +9,8 @@ btn.addEventListener('click', () => {
   img.alt = 'like';
 
   wrapper.appendChild(img);
+
+  setTimeout(() => {
+    wrapper.removeChild(img);
+  }, 500)
 });
