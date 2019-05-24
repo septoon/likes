@@ -12,5 +12,5 @@ btn.addEventListener('click', () => {
 
   setTimeout(() => {
     wrapper.removeChild(img);
-  }, 500)
+  }, 500);
 });
